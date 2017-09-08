@@ -3,6 +3,7 @@ IT教程 for Git
 开发者:ddknight
 --------------
 convert @michaelliao 's Learn Git into an Android app.
+
 #内容提要
 史上最浅显易懂的Git教程！
 购买前，请移步官方网站免费阅读《<a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">Git教程</a>》，如果觉得教程很棒，不妨购买一份存放在iPhone或iPad中随时查阅。
