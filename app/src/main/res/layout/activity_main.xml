@@ -10,12 +10,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tb_git_learn_intro"
+            style="@style/ToolBarStyle" />
         <ImageView
             android:id="@+id/iv_git_logo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:src="@drawable/img_git_logo" />
+            android:layout_margin="8dp"
+            android:src="@drawable/img_git_logo"
+            android:contentDescription="@string/git_main_git_logo_jpg"
+            />
         <TextView
             android:id="@+id/tv_git_learn_intro"
             style="@style/TextView"
