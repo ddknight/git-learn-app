@@ -1,18 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="cc.ddknight.app.learngit.MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        >
+        <ImageView
+            android:id="@+id/iv_git_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/img_git_logo" />
+        <TextView
+            android:id="@+id/tv_git_learn_intro"
+            style="@style/TextView"
+            android:text="@string/git_main_intro"
+            />
+        <TextView
+            android:id="@+id/tv_git_learn_intro_hint1"
+            style="@style/TextViewBold"
+            android:text="@string/git_main_intro_hint"
+            />
+        <TextView style="@style/TextView"
+            android:id="@+id/tv_git_learn_intro2"
+            android:text="@string/git_main_intro2" />
+        <TextView
+            style="@style/TextViewBold"
+            android:id="@+id/tv_git_learn_intro_about_author"
+            android:text="@string/git_main_intro_about_author"/>
+        <TextView
+            android:id="@+id/tv_git_learn_intro_author_info"
+            style="@style/TextView"
+            android:text="@string/git_main_intro_author_info"/>
+    </LinearLayout>
+</ScrollView>
 
-</android.support.constraint.ConstraintLayout>
