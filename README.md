@@ -1,2 +1,20 @@
-# git-learn-app
-convert @michaelliao 's Learn Git into an Android app
+IT教程 for Git
+=============
+开发者:ddknight
+--------------
+convert @michaelliao 's Learn Git into an Android app.
+#内容提要
+史上最浅显易懂的Git教程！
+购买前，请移步官方网站免费阅读《<a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">Git教程</a>》，如果觉得教程很棒，不妨购买一份存放在iPhone或iPad中随时查阅。
+
+官方网站：www.liaoxuefeng.com
+
+这个Git教程有什么让你怦然心动的特点呢？
+首先，本教程绝对面向初学者，没有接触过版本控制概念的读者也可以轻松入门，不必担心起步难度；
+
+其次，本教程实用性超强，边学边练，一点也不觉得枯燥。
+而且，你所学的Git命令是“充分且必要”的，掌握了这些东西，你就可以通过Git轻松地完成你的工作。
+
+文字+图片还看不明白？还有视频！！！详细演示Git每个命令！！！
+
+如果你是一个开发人员，想用上这个世界上目前最先进的分布式版本控制系统，那么，赶快开始学习吧！
