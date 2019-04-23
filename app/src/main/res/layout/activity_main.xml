@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         >
         <ImageView
+            android:contentDescription="@string/git_logo_desc"
             android:id="@+id/iv_git_logo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
